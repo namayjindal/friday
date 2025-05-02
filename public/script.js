@@ -3,7 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 const addItemButton = document.getElementById('add-item');
+const itemsPageButton = document.querySelector('button');
+
+itemsPageButton.addEventListener('click', () => {
+    console.log('go to items page');
+})
 
 addItemButton.addEventListener('click', () => {
-    console.log('item added')
+    console.log('item added');
 })
